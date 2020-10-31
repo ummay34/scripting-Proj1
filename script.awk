@@ -21,7 +21,7 @@ NR>1 && $52>=1{drunkCases+=1}
 NR>1 && ($15 == 6 || $15 == 7) {friSatAccident+=1}
 
 #Count total Accident cases in michigan
-NR>1 && $1 == 26 {totalMI+=1}
+NR>1 && $1 == 26 {totalCasesMI+=1}
 
 #Count total Drunk drivers in michigan accidents
 NR>1 && $1 == 26 && $52 >= 1 {drunkCasesMI+=1} 
